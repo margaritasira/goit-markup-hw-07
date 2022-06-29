@@ -1,0 +1,38 @@
+.gallery-list {
+    display: flex;
+    margin: 0;
+}
+
+.gallery-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-title {
+    
+text-align: center;
+color: var(--title-color);
+margin-bottom: 50px;
+}
+
+.gallery-top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: absolute;
+bottom: 0;
+
+width: 100%;
+height: 70px;
+font-weight: 700;
+line-height: 1.14;
+text-align: center;
+text-transform: uppercase;
+
+color:var(--second-title-color);
+background-color: rgba(47, 48, 58, 0.8);;
+}
+
