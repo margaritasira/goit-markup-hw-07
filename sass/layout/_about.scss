@@ -1,4 +1,4 @@
-.about-list {
+.pic-list {
     display: flex;
 }
 
@@ -6,7 +6,7 @@
 padding-bottom: 0;
 }
 
-.about-pre-title {
+.pic-list__pre-title {
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 10px;
@@ -15,16 +15,16 @@ text-transform: uppercase;
 color: var(--title-color);
 }
 
-.about-text {
+.pic-list__text {
     font-size: 14px;
 line-height: 1.71;
 color: var(--main-color);
 }
-.about-item:not(:last-child) {
+.pic-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.icon-box {
+.pic-list__icon-box {
     display: flex;
     justify-content: center;
     align-items: center;

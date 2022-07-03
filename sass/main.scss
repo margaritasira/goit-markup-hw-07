@@ -1,6 +1,7 @@
 
 @import './utils/variables';
-@import './utils/reset';
+@import './base/fonts';
+@import './base/reset';
 @import './utils/hidden';
 @import './utils/common';
 
@@ -9,13 +10,14 @@
 @import './components/container';
 @import './components/btn';
 @import './components/title';
-@import './components/header';
-@import './components/hero';
-@import './components/about';
-@import './components/gallery';
-@import './components/masters';
-@import './components/navigation';
-@import './components/features';
-@import './components/clients';
-@import './components/footer';
-@import './components/modal';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/gallery';
+@import './layout/masters';
+@import './layout/navigation';
+@import './layout/features';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal';

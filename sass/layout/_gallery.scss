@@ -1,24 +1,23 @@
-.gallery-list {
+.card-list {
     display: flex;
     margin: 0;
 }
 
-.gallery-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.gallery-item {
+.card-list__item {
     position: relative;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.gallery-title {
+.gallery__title {
     
 text-align: center;
 color: var(--title-color);
 margin-bottom: 50px;
 }
 
-.gallery-top-text {
+.card-list__top-text {
     display: flex;
     justify-content: center;
     align-items: center;

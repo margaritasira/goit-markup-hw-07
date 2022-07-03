@@ -41,9 +41,9 @@ color: var(--second-title-color);
 color: var(--second-title-color);
 background-color: var(--accent-color);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ,color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-.hero-btn:hover,
-.hero-btn:focus {
+&:hover,
+&:focus {
     color: var(--second-title-color);
     background-color: #188CE8;
+}
 }

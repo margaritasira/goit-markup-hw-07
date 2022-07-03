@@ -8,13 +8,12 @@
     letter-spacing: 0.03em;
     color: var(--title-color);
     background-color: var(--secondary-bgc);
-    }
-    .button:hover,
-    .button:focus {
+    &:hover,
+    &:focus {
         color: var(--second-title-color);
         background-color: var(--accent-color);
     }
-    
+    }
     button {
         cursor: pointer;
         border: none;
